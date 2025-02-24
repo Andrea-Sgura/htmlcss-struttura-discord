@@ -15,6 +15,11 @@ header{
     display: flex;
 }
 
+.container-sm{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .side-col{
     width: 20%;
 }
@@ -35,6 +40,10 @@ header{
     background-color: orange;
 }
 
+.bg-violet{
+    background-color: violet;
+}
+
 .text-left{
     text-align: left;
 }
@@ -47,11 +56,20 @@ header{
     text-align: right;
 }
 
+.h-300{
+    height: 300px;
+}
+
 header ul{
     list-style-type: none;
 }
 
 header ul li{
     display: inline-block;
+}
+
+#jumbotron{
+    background-color: darkblue;
+    padding: 20px 0px;
 }
 
