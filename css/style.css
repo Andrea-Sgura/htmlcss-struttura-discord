@@ -32,6 +32,10 @@ header{
     width: 70%;
 }
 
+.full-col{
+    width: 100%;
+}
+
 .small-col{
     width: 30%;
 }
@@ -40,6 +44,7 @@ header{
     padding: 10px;
 }
 
+/* utility */
 .border-black{
     border: 1px solid black;
 }
@@ -60,6 +65,14 @@ header{
     background-color: pink;
 }
 
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-green{
+    background-color: green;
+}
+
 .text-left{
     text-align: left;
 }
@@ -76,10 +89,19 @@ header{
     height: 300px;
 }
 
+.h-600{
+    height: 600px;
+}
+
 .my-20{
     margin: 20px auto;
 }
 
+.py-20{
+    padding: 20px 0;
+}
+
+/* content */
 header ul{
     list-style-type: none;
 }
@@ -92,4 +114,6 @@ header ul li{
     background-color: darkblue;
     padding: 20px 0px;
 }
+
+
 
